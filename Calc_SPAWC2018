@@ -1,3 +1,5 @@
+% Author: Prabhu Chandhar, Chandhar Research Labs, Chennai, India.
+
 function [Exp_SINR_exact,Exp_SINR_approx,Exp_InvSINR_exact,Exp_InvSINR_approx,ErgodicRate_Simulation_ZF,ErgodicRate_Simulation_MRC] = Calc_SPAWC2018(M,K,del,lambda,pu_p,rhou);
 
 e = 1/sqrt(pu_p);
